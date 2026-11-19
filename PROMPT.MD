@@ -1,0 +1,2 @@
+proved analýzu dat (README_DATA.MD) a připrav program pro jejich analýzu (README_PROGRAM.MD )
+údaje nejsou přesné, musíš zkontrolovat, doporučené hodnoty, formát datových souborů, skutečné vzorkování (16 Hz), v datech jsou někde chyby (špatně označené měření, špatná doba začátku děje - většinou 140 sec, ale není to přesné, je potřeba provést detekci)

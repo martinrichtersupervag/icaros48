@@ -1,0 +1,224 @@
+{
+  "file_info": {
+    "filename": "0 C.txt",
+    "md5": "5d8bfb16bf8e9959ee726bbe13c818f9",
+    "nominal_temp_C": 0.0,
+    "temp_diff_from_24C": 24.0,
+    "logged_timestamp": "11/12/2024 at 13:09:08",
+    "sensor_range": "300uW",
+    "wavelength_nm": "1559",
+    "sampling_stats": {
+      "n_samples": 13504,
+      "duration_s": 899.964,
+      "dt_min_s": 0.06299999999998818,
+      "dt_max_s": 0.09700000000009368,
+      "dt_mean_s": 0.06664918906909575,
+      "dt_median_s": 0.06400000000000006,
+      "fs_mean_Hz": 15.00393349067296,
+      "fs_mode_Hz": 15.625,
+      "periodic_stall_0096s_pct": 8.279641561134563
+    },
+    "glitches_detected_and_repaired": []
+  },
+  "preprocessing": {
+    "resampled_fs_Hz": 16.0,
+    "resampled_dt_s": 0.0625,
+    "onset_t0_s": 141.5625,
+    "initial_level_y0": {
+      "value": 21.886666666666667,
+      "unit": "uW"
+    },
+    "baseline_mu0": {
+      "value": 22.542888888888893,
+      "unit": "uW"
+    },
+    "baseline_sigma0": {
+      "value": 0.3850028699588394,
+      "unit": "uW"
+    },
+    "consecutive_diff_stats_README_DATA": {
+      "total_abs_diff_post_t0": {
+        "value": 839.9000000000001,
+        "unit": "uW"
+      },
+      "mean_abs_diff_rate_120s": {
+        "value": 4.810205364319004,
+        "unit": "uW/s"
+      },
+      "max_consecutive_abs_diff": {
+        "value": 1.79999999999999,
+        "unit": "uW"
+      }
+    }
+  },
+  "window_10s": {
+    "max_onset_velocity_dy_max": {
+      "value": 25.816799793581772,
+      "unit": "uW/s"
+    },
+    "max_onset_acceleration_d2y_max": {
+      "value": 27.65175124838005,
+      "unit": "uW/s^2"
+    },
+    "first_peak_y_peak1": {
+      "value": 66.32274949371468,
+      "unit": "uW"
+    },
+    "first_peak_time_from_t0_s": {
+      "value": 3.5625,
+      "unit": "s"
+    },
+    "initial_peak_force_F_peak": {
+      "value": 592.3925491837019,
+      "unit": "F/k (uW)"
+    },
+    "initial_impulse_I10": {
+      "value": 368.9935350551345,
+      "unit": "F/k·s (uW·s)"
+    },
+    "initial_abs_impulse_I10_abs": {
+      "value": 2093.057342575726,
+      "unit": "F/k·s (uW·s)"
+    },
+    "sum_abs_consecutive_diff_10s": {
+      "value": 135.19364646051918,
+      "unit": "uW"
+    }
+  },
+  "window_30s": {
+    "local_periods_T_s": [
+      8.375,
+      11.125,
+      15.625,
+      20.375,
+      28.0,
+      36.75
+    ],
+    "instantaneous_frequencies_f_Hz": [
+      0.11940298507462686,
+      0.0898876404494382,
+      0.064,
+      0.049079754601226995,
+      0.03571428571428571,
+      0.027210884353741496
+    ],
+    "envelope_amplitude_max": {
+      "value": 34.733254831533884,
+      "unit": "uW"
+    },
+    "envelope_amplitude_end_30s": {
+      "value": 34.61308914119881,
+      "unit": "uW"
+    },
+    "logarithmic_decrement_delta": {
+      "value": -0.023623510677451425,
+      "unit": "-"
+    },
+    "sum_abs_consecutive_diff_30s": {
+      "value": 305.0156614133368,
+      "unit": "uW"
+    }
+  },
+  "window_60s": {
+    "cwt_ridge_freq_start_Hz": {
+      "value": 0.09864406779661015,
+      "unit": "Hz"
+    },
+    "cwt_ridge_freq_end_Hz": {
+      "value": 0.02694915254237288,
+      "unit": "Hz"
+    },
+    "cwt_ridge_period_start_s": {
+      "value": 10.13745704467354,
+      "unit": "s"
+    },
+    "cwt_ridge_period_end_s": {
+      "value": 37.106918238993714,
+      "unit": "s"
+    },
+    "mechanical_work_W60": {
+      "value": 6947.434107653503,
+      "unit": "uW^2"
+    },
+    "mean_driving_power_P_mean": {
+      "value": 116.1994115414027,
+      "unit": "uW^2/s"
+    },
+    "rms_driving_power_P_rms": {
+      "value": 1443.302095003027,
+      "unit": "uW^2/s"
+    },
+    "sum_abs_consecutive_diff_60s": {
+      "value": 437.5301865492281,
+      "unit": "uW"
+    }
+  },
+  "window_120s": {
+    "total_impulse_I120": {
+      "value": 1450.4624643565048,
+      "unit": "F/k·s (uW·s)"
+    },
+    "rms_driving_force_F_RMS_120": {
+      "value": 79.35144772006636,
+      "unit": "F/k (uW)"
+    },
+    "stiffness_nonlinearity_coeff": {
+      "value": -0.2123714043620082,
+      "unit": "-"
+    },
+    "energy_dissipated_vs_stored_ratio": {
+      "value": 11.204077244139063,
+      "unit": "-"
+    },
+    "sum_abs_consecutive_diff_120s": {
+      "value": 577.2246437182805,
+      "unit": "uW"
+    },
+    "number_of_fringe_sweeps_120s": {
+      "value": 8.486897344474226,
+      "unit": "sweeps"
+    }
+  },
+  "window_900s": {
+    "steady_state_y_inf": {
+      "value": 57.86864285130378,
+      "unit": "uW"
+    },
+    "static_driving_force_F_stat": {
+      "value": 35.98197618463712,
+      "unit": "F/k (uW)"
+    },
+    "natural_frequency_f0": {
+      "value": 0.035,
+      "unit": "Hz"
+    },
+    "natural_period_T0": {
+      "value": 28.57142857142857,
+      "unit": "s"
+    },
+    "damping_ratio_zeta": {
+      "value": 0.14068924723716966,
+      "unit": "-"
+    },
+    "estimated_mass_m": {
+      "value": 20.268507431077325,
+      "unit": "kg_eff"
+    },
+    "estimated_damping_c": {
+      "value": 1.2667817144423328,
+      "unit": "N·s/m_eff"
+    },
+    "settling_time_ts_2pct": {
+      "value": 758.375,
+      "unit": "s"
+    },
+    "relative_overshoot_sigma_max": {
+      "value": 15.933156577327237,
+      "unit": "%"
+    },
+    "damped_sine_fit_r2": {
+      "value": 0.8998893377453328,
+      "unit": "-"
+    }
+  }
+}
