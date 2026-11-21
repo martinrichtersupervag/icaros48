@@ -1,0 +1,9 @@
+# Závislosti projektu Icaros48 (ověřeno pro Python 3.9)
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.0.1
+matplotlib==3.7.1
+PyWavelets==1.6.0
+notebook==7.5.8
+ipykernel==6.22.0
+ipywidgets==8.1.9
